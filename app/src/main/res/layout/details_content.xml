@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DetailsActivity"
+    tools:showIn="@layout/activity_details">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="16dp">
+
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            tools:text="@string/country_description"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_location"
+            android:contentDescription="@null"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_continent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            tools:text="Europa"
+            app:layout_constraintTop_toBottomOf="@+id/tv_description"
+            app:layout_constraintStart_toEndOf="@+id/iv_location" />
+
+        <TextView
+            android:id="@+id/tv_continent_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:text="Continente"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_continent"
+            app:layout_constraintStart_toEndOf="@+id/iv_location" />
+
+        <TextView
+            android:id="@+id/tv_capital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            tools:text="Londres"
+            app:layout_constraintTop_toBottomOf="@+id/tv_continent_label"
+            app:layout_constraintStart_toStartOf="@+id/tv_continent_label" />
+
+        <TextView
+            android:id="@+id/tv_capital_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_capital"
+            app:layout_constraintStart_toStartOf="@+id/tv_capital" />
+
+        <TextView
+            android:id="@+id/tv_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            tools:text="Inglês"
+            app:layout_constraintTop_toBottomOf="@+id/tv_capital_label"
+            app:layout_constraintStart_toStartOf="@+id/tv_capital_label" />
+
+        <TextView
+            android:id="@+id/tv_language_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Língua Falada"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_language"
+            app:layout_constraintStart_toStartOf="@+id/tv_language" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/gray_light_primary"
+            app:layout_constraintTop_toBottomOf="@+id/tv_language_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/iv_people"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_people"
+            android:contentDescription="@null"
+            app:layout_constraintTop_toBottomOf="@+id/view1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_population"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            tools:text="68 455 083"
+            app:layout_constraintTop_toBottomOf="@+id/view1"
+            app:layout_constraintStart_toEndOf="@+id/iv_people" />
+
+        <TextView
+            android:id="@+id/tv_population_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:text="População"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_population"
+            app:layout_constraintStart_toEndOf="@+id/iv_people" />
+
+        <TextView
+            android:id="@+id/tv_area"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            tools:text="242.495 km²"
+            app:layout_constraintTop_toBottomOf="@+id/tv_population_label"
+            app:layout_constraintStart_toStartOf="@+id/tv_population_label" />
+
+        <TextView
+            android:id="@+id/tv_area_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extensão Geográfica"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_area"
+            app:layout_constraintStart_toStartOf="@+id/tv_area" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/gray_light_primary"
+            app:layout_constraintTop_toBottomOf="@+id/tv_area_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <ImageView
+            android:id="@+id/iv_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="8dp"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_money"
+            android:contentDescription="@null"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            tools:text="Libras"
+            app:layout_constraintTop_toBottomOf="@+id/view2"
+            app:layout_constraintStart_toEndOf="@+id/iv_currency" />
+
+        <TextView
+            android:id="@+id/tv_currency_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moeda Local"
+            android:textSize="12sp"
+            app:layout_constraintTop_toBottomOf="@+id/tv_currency"
+            app:layout_constraintStart_toStartOf="@+id/tv_currency" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="50dp"
+            android:background="@color/gray_light_primary"
+            app:layout_constraintTop_toBottomOf="@+id/tv_currency_label"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
