@@ -27,9 +27,8 @@
             android:id="@+id/iv_location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingVertical="8dp"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_location"
+            android:src="@drawable/ic_location_large"
             android:contentDescription="@null"
             app:layout_constraintTop_toBottomOf="@+id/tv_description"
             app:layout_constraintStart_toStartOf="parent" />
@@ -104,9 +103,8 @@
             android:id="@+id/iv_people"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingVertical="8dp"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_people"
+            android:src="@drawable/ic_people_large"
             android:contentDescription="@null"
             app:layout_constraintTop_toBottomOf="@+id/view1"
             app:layout_constraintStart_toStartOf="parent" />
@@ -164,9 +162,8 @@
             android:id="@+id/iv_currency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingVertical="8dp"
             android:layout_margin="16dp"
-            android:src="@drawable/ic_money"
+            android:src="@drawable/ic_money_large"
             android:contentDescription="@null"
             app:layout_constraintTop_toBottomOf="@+id/view2"
             app:layout_constraintStart_toStartOf="parent" />
