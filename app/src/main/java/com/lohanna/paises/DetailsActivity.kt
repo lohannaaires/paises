@@ -67,6 +67,8 @@ class DetailsActivity: AppCompatActivity() {
 
                 binding.apply {
                     toolbarLayout.title = name
+                    toolbarLayout.setCollapsedTitleTextAppearance(R.style.CollapsedAppBar)
+                    toolbarLayout.setExpandedTitleTextAppearance(R.style.ExpandedAppBar)
                     ivPicture.setImageBitmap(getBitmapFromAssets("img/$fileName", context))
                     details.apply {
                         tvDescription.text = description
