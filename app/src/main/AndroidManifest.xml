@@ -10,7 +10,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Custom.Paises"
+        android:theme="@style/Theme.Custom.Countries"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"
@@ -27,7 +27,7 @@
         </activity>
 
         <activity android:name=".AboutActivity" />
-        <activity android:name=".DetailsActivity" android:theme="@style/Theme.Custom.Paises.NoActionBar" />
+        <activity android:name=".DetailsActivity" android:theme="@style/Theme.Custom.Countries.NoActionBar" />
     </application>
 
 </manifest>
