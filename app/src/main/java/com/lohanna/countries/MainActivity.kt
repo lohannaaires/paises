@@ -1,4 +1,4 @@
-package com.lohanna.paises
+package com.lohanna.countries
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,7 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.lohanna.paises.databinding.ActivityMainBinding
+import com.lohanna.countries.databinding.ActivityMainBinding
 import java.io.IOException
 import java.io.InputStream
 import java.io.Serializable

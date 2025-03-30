@@ -1,9 +1,9 @@
-package com.lohanna.paises
+package com.lohanna.countries
 
 import android.os.Bundle
 import android.text.method.LinkMovementMethod
 import androidx.appcompat.app.AppCompatActivity
-import com.lohanna.paises.databinding.ActivityAboutBinding
+import com.lohanna.countries.databinding.ActivityAboutBinding
 
 
 class AboutActivity: AppCompatActivity() {

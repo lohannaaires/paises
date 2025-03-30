@@ -1,4 +1,4 @@
-package com.lohanna.paises
+package com.lohanna.countries
 
 import android.graphics.Rect
 import android.view.View

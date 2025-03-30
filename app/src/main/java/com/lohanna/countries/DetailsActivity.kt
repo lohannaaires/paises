@@ -1,4 +1,4 @@
-package com.lohanna.paises
+package com.lohanna.countries
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -14,8 +14,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.text.bold
-import com.lohanna.paises.databinding.ActivityDetailsBinding
-import com.lohanna.paises.databinding.CountryInfoDialogBinding
+import com.lohanna.countries.databinding.ActivityDetailsBinding
+import com.lohanna.countries.databinding.CountryInfoDialogBinding
 
 
 class DetailsActivity: AppCompatActivity() {

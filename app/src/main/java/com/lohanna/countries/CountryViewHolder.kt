@@ -1,8 +1,8 @@
-package com.lohanna.paises
+package com.lohanna.countries
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView
-import com.lohanna.paises.databinding.CountryViewHolderBinding
+import com.lohanna.countries.databinding.CountryViewHolderBinding
 
 class CountryViewHolder(private val binding: CountryViewHolderBinding, private val context: Context): RecyclerView.ViewHolder(binding.root) {
 

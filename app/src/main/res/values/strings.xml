@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Países</string>
+    <string name="app_name">Informações sobre Países</string>
     <string name="title_about">Sobre o Aplicativo</string>
     <string name="area">%1$s km²</string>
     <string name="about_text">Este aplicativo foi desenvolvido para fins didáticos, visando o aprendizado das tecnologias de front-end Android. \n\nTodos os dados e textos de informação foram retirados da Wikipédia. \n\nOs ícones das bandeiras foram retiradas do endereço <a href="https://www.freepik.com/">https://www.freepik.com/</a>, já as demais imagens encontram-se no endereço <a href="https://www.flickr.com">https://www.flickr.com/</a>. \n\nTodas as imagens utilizadas neste projeto foram retiradas da Internet e estão sob a licença Creative Commons, disponível em: <a href="https://creativecommons.org/licenses/by/2.0/">https://creativecommons.org/licenses/by/2.0/</a>.</string>
